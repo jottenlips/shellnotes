@@ -1,0 +1,31 @@
+{
+    "name": "shellnotes",
+    "version": "0.0.6",
+    "description": "Simple command line note taker",
+    "main": "index.js",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/jottenlips/shellnotes.git"
+    },
+    "keywords": [
+        "command",
+        "line",
+        "cli",
+        "notes",
+        "journal"
+    ],
+    "author": "John Ottenlips Franke",
+    "license": "ISC",
+    "bugs": {
+        "url": "https://github.com/jottenlips/shellnotes/issues"
+    },
+    "bin": {
+        "shellnotes": "./src/index.js",
+        "note": "./src/index.js"
+
+    },
+    "homepage": "https://github.com/jottenlips/shellnotes#readme"
+}
