@@ -56,3 +56,11 @@ See all of your notes
 ```
 note --all
 ```
+
+## Markdown support
+
+Use quotes for markdown
+
+```
+shellnotes '# This is markdown'
+```
