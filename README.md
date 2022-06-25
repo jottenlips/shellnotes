@@ -17,13 +17,13 @@ shellnotes Something I want to take a note on
 Open today's note
 
 ```
-shellnotes --today
+shellnotes --edit
 ```
 
 View today's note
 
 ```
-shellnotes --recap
+shellnotes --today
 ```
 
 See all of your notes
@@ -42,13 +42,13 @@ note Something I want to take a note on
 Open today's note
 
 ```
-note --today
+note --edit
 ```
 
 View today's note
 
 ```
-note --recap
+note --today
 ```
 
 See all of your notes
