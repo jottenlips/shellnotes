@@ -9,7 +9,7 @@ const date = ("0" + today.getDate()).slice(-2);
 const month = ("0" + (today.getMonth() + 1)).slice(-2);
 const year = today.getFullYear();
 const shellnotesFolder = `${os.homedir()}/.shellnotes`
-const todaysFile = `shellnotes-${month}-${date}-${year}.md`
+const todaysFile = `${year}-${month}-${date}.md`
 const todaysPath = `${shellnotesFolder}/${todaysFile}`
 const args = process.argv.slice(2);
 

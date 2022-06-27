@@ -66,3 +66,7 @@ Use quotes for markdown
 ```
 shellnotes '# This is markdown'
 ```
+
+## Location
+
+Your shell notes are stored at ~/.shellnotes
