@@ -50,6 +50,22 @@ if (args[0] === '--today') {
     });
 }
 
+if (args[0] === '--yesterday') {
+    const yesterday = new Date(new Date().setDate(new Date().getDate() - 1));
+    const date = ("0" + yesterday.getDate()).slice(-2);
+    const month = ("0" + (yesterday.getMonth() + 1)).slice(-2);
+    const year = yesterday.getFullYear();
+    const yesterdayFile = `${year}-${month}-${date}.md`
+    const yesterdayPath = `${shellnotesFolder}/${yesterdayFile}`
+    return fs.readFile(yesterdayPath, 'utf8', (err, note) => {
+        if (err) {
+            console.log(`Could not find a shellnote for ${yesterdayFile} 🐢`);
+            return;
+        }
+        console.log(note);
+    });
+}
+
 fs.mkdir(shellnotesFolder, { recursive: true }, (err) => {
     if (err) throw err;
 });
