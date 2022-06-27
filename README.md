@@ -2,6 +2,8 @@
 
 The tiny turtle terminal note taker.
 
+Shellnotes is a way to keep track of those small details and points that come up throughout the day. Shellnotes cab help you avoid the work flow or meeting interruptions experienced by making a doc and remembering where you put it. At the end of your day, you can do a quick recap with the `--today` functionality. If you enjoy this system leave a ⭐️. Thanks! More features coming soon.
+
 ## install
 
 ```
