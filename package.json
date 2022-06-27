@@ -1,6 +1,6 @@
 {
     "name": "shellnotes",
-    "version": "1.0.1",
+    "version": "1.0.2",
     "description": "Simple command line note taker",
     "main": "index.js",
     "scripts": {
