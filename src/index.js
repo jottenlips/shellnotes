@@ -14,7 +14,7 @@ const todaysPath = `${shellnotesFolder}/${todaysFile}`
 const args = process.argv.slice(2);
 
 if (args.length === 0 || args[0] === '--help') {
-    console.log(`\n🐢\n\nType shellnotes or note and the message you want to append to your daily note.\n\n--edit to open ${todaysFile} \n\n--today to view ${todaysFile} \n\n--all to open all notes \n\n--help to see this message again`)
+    console.log(`\n🐢\n\nType shellnotes or note and the message you want to append to your daily note.\n\n--edit to open ${todaysFile} \n\n--today to view ${todaysFile}\n\n--yesterday to see yesterday's note \n\n--all to open all notes \n\n--help to see this message again`)
     console.log('\n\nexample usage:\n\n$ shellnotes Turtles are tight!\n\n$ shellnotes --today\n\nTurtles are tight!\n\n')
     return
 }

@@ -28,6 +28,12 @@ View today's note
 shellnotes --today
 ```
 
+View yesterday's note
+
+```
+shellnotes --yesterday
+```
+
 See all of your notes
 
 ```
